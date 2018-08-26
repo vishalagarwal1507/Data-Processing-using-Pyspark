@@ -3,7 +3,7 @@ In this project, the goal is to preprocess the text data using distributed proce
 
 In pyspark instead of using the resilient distributed datasets we have focused on using pyspark dataframe which are very similar to pandas dataframe. The main difference is that pyspark dataframe could be distributed on the worker node and hence quite helpful for processing large volume of data.
 
-### Some Basic Preprocessing functionality-
+### Some Basic Preprocessing Functionality
 
 In this project a custom transformer has been implemented which could take different stopwords lemmatization and other parameters and provides lazy loading functionality.
 
@@ -20,13 +20,13 @@ There are two stemmer used -
 
 The preprocessed data can be saved in a file or the database.
 
-### Feature conversion from text.
+### Feature Conversion From Text
 
 The preprocessed text can be converted in features using various technique for some further analysis.
 One of such technique is bag of words.
 In this technique all the words are split in token and assigned a number and saved in dictionary then each document is converted into bag of words from that dictionary, which is having a word to number mapping. 
 
-### Features to Model Building.
+### Features To Model Building
 These features can be used for making a model.
 One implementation of such model can be seen in the notebook.
 Latent Dirichlet Allocation is used for topic modelling.
