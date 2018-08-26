@@ -1,5 +1,5 @@
 # Data-Processing-using-Pyspark
-In this project, the goal is to preprocess the text data using distributed processing functinality of Pyspark.
+In this project, the goal is to preprocess the text data using distributed processing functionality of Pyspark.
 
 In pyspark instead of using the resilient distributed datasets we have focused on using pyspark dataframe which are very similar to pandas dataframe. The main difference is that pyspark dataframe could be distributed on the worker node and hence quite helpful for processing large volume of data.
 
